@@ -1,3 +1,3 @@
 # tetra-www
 
-Tetra Technology Limited Publi Website
+Tetra Technology Limited Public Website
