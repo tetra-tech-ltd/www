@@ -47,8 +47,6 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tetra</a> -->
 
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href="index.html"><img src="https://tetratechnology.co.uk/images/logo.png" alt="Tetra Technology Logo"></a>
@@ -73,24 +71,7 @@
                     <a class="nav-link page-scroll" href="#work">WORK</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALLBACK</a>
-                </li>
-
-                <!-- Dropdown Menu -->
-                <!--
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"><span class="item-text">TETRA CONNECT</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">NEXT PRODUCT</span></a>
-                    </div>
-                </li>
-                -->
-                <!-- end of dropdown menu -->
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                    <a class="nav-link page-scroll" href="#team">TEAM</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -110,6 +91,12 @@
                     <a href="https://www.linkedin.com/company/tetratechuk">
                         <span class="hexagon"></span>
                         <i class="fab fa-linkedin fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="mailto:info@tetratechnology.co.uk">
+                        <span class="hexagon"></span>
+                        <i class="far fa-envelope fa-stack-1x"></i>
                     </a>
                 </span>
             </span>
@@ -406,7 +393,7 @@
     </div>
 
     <!-- Team -->
-    <div class="basic-2">
+    <div id="team" class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -491,186 +478,49 @@
     </div>
 
 
-
-    <!-- Call Me -->
-    <div id="callMe" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <div class="section-title">CALLBACK</div>
-                        <h2 class="white">Request a callback</h2>
-                        <p class="white">Just fill in the form and we'll get right back with a call to discuss your requirements.</p>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">It'll be an informal chat to see if we can help.</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">During the call we'll try to establish what your high level requirements are.</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">If you prefer, use our <a class="page-scroll" href="#contact">contact</a> form instead for more specific queries.</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <form id="callMeForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lname" name="lname" required>
-                            <label class="label-control" for="lname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lphone" name="lphone" required>
-                            <label class="label-control" for="lphone">Phone</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="lemail" name="lemail" required>
-                            <label class="label-control" for="lemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control-select" id="lselect" required>
-                                <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Tetra Connect">Tetra Connect</option>
-                                <option class="select-option" value="Tetra Consult">Tetra Consult</option>
-                            </select>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I consent to Tetra Technology using my contact information.
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">REQUEST BALLBACK</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="lmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Contact -->
-    <div id="contact" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <div class="section-title">CONTACT</div>
-                        <h2>Get In Touch</h2>
-                        <p>Just use the contact form here for any questions and enquiries</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>16 Gordon St, Glasgow, G1 3PU</li>
-                        </ul>
-                        <h3>Follow Tetra On Social Media</h3>
-
-                        <span class="fa-stack">
-                            <a href="https://facebook.com/tetratechuk">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://twitter.com/tetratechuk">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/company/tetratechuk">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I consent to Tetra Technology using my contact information.
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Agile Manifesto</h4>
-                        <p class="white">
-                        	Individuals and interactions over processes and tools<br/>
-							Working software over comprehensive documentation<br/>
-							Customer collaboration over contract negotiation<br/>
-							Responding to change over following a plan<br/>
-						</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
                     <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="https://agilemanifesto.org/">agile manifesto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-container">
-                        <h4>Tools</h4>
+                        <h4>Where to find us</h4>
                         <ul class="list-unstyled li-space-lg">
-                            <li>
-                               <a class="white" href="https://www.java.com/en/">java.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="https://spring.io/">spring.io</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="https://www.apache.org/">apache.org</a>
-                            </li>
+                            <li class="address"><i class="fas fa-map-marker-alt"> <a href="https://maps.app.goo.gl/DXVAGaPwZJxM5FWW8">16 Gordon St, Glasgow, G1 3PU</a></i></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-container text-right">
+                        <h4>Get In Touch</h4>
+
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="https://facebook.com/tetratechuk">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://twitter.com/tetratechuk">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://www.linkedin.com/company/tetratechuk">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                </a>
+                            </span>
+
+                            <span class="fa-stack">
+                                <a href="mailto:info@tetratechnology.co.uk">
+                                    <span class="hexagon white"></span>
+                                    <i class="far fa-envelope fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -684,7 +534,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright &copy; 2024 Tetra Technology</p>
+                    <p class="p-small">Copyright &copy; 2026 Tetra Technology</p>
                 </div>
             </div>
         </div>
